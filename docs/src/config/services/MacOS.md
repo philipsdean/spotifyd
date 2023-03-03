@@ -25,6 +25,12 @@ Here is a .plist which works with macOS Catalina 10.15.3:
 		<true/>
 		<key>ThrottleInterval</key>
 		<integer>30</integer>
+	    	<key>ProcessType</key>
+		<string>Interactive</string>
+		<key>LowPriorityIO</key>
+		<false/>
+		<key>LowPriorityBackgroundIO</key>
+		<false/>
 	</dict>
 </plist>
 ```
